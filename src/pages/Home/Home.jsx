@@ -19,13 +19,14 @@ const Home = () => {
               <h1 className="hero-title slide-in-up">
                 <span className="name-highlight">Aaron Amit</span>
                 <br />
-                Full Stack Developer
+                FRONTEND DEVELOPER
               </h1>
               <p className="hero-description slide-in-up">
-                I craft beautiful, responsive web applications using modern
-                technologies like React, Node.js, and the MERN stack. Passionate
-                about creating user-friendly experiences and clean, efficient
-                code.
+                Crafting dynamic, responsive interfaces using React and the MERN
+                stack, I transform ideas into interactive digital experiences.
+                Driven by clean code and user-centric design, I deliver
+                front-end solutions that empower users and elevate brand
+                presence.
               </p>
               <div className="hero-buttons slide-in-up">
                 <Link to="/projects" className="btn btn-primary">
@@ -50,11 +51,10 @@ const Home = () => {
                 </div>
               </div>
             </div>
-          
-              <div className="hero-image slide-in-up">
-                <ParticlesBackground />
-              </div>
-        
+
+            <div className="hero-image slide-in-up">
+              <ParticlesBackground />
+            </div>
           </div>
         </div>
 
